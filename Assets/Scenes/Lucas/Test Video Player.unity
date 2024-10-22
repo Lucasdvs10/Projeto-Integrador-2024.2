@@ -227,6 +227,10 @@ PrefabInstance:
       propertyPath: m_Url
       value: file:///home/lucassantos/Videos/Screencasts/Prova de conceito do simulador.webm
       objectReference: {fileID: 0}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_PlaybackSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1992201684589231802, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
       propertyPath: m_IsActive
       value: 0
