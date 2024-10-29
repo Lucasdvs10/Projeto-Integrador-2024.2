@@ -223,6 +223,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_Url
+      value: ./Assets/Artes/Videos/Placeholder2.webm
+      objectReference: {fileID: 0}
     - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 239.61377
