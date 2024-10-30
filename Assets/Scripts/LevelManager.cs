@@ -1,10 +1,15 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace {
-    public class LevelMenager : MonoBehaviour {
+    public class LevelManager : MonoBehaviour {
         // [SerializeField] private GameObject _nextLevelBtn;
         //reutilizei o seu codigo para o level selector qqr coisa me avisa q eu crio outro script
+
+        public Animator transition;
+        public float transitionTime;
 
         private void Awake() {
             int nextLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
@@ -16,10 +21,17 @@ namespace DefaultNamespace {
             }
         }
 
-        public void LoadNextLevel(int index) {
-            int nextLevelIndex = SceneManager.GetActiveScene().buildIndex + index;
-            SceneManager.LoadScene(nextLevelIndex);
+        public void LoadNextLevel(int index)
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + index));
             //os index das scenes precisam ser configuradas no build configs
+        }
+
+        IEnumerator LoadLevel(int index)
+        {
+            transition.SetTrigger("Start");
+            yield return new WaitForSeconds(transitionTime);
+            SceneManager.LoadScene(index);
         }
     }
 }
