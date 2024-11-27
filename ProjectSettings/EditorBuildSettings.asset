@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 6d3d6463eecf3c1ee821e100563e56fe
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lucas/Test Video Player.unity
     guid: f5f3ef5fd7424203fb3f6f9796acf58e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Lucas/Test Video Player 2.unity
     guid: 120c632f6b344bce19a2ca1a3f9c1721
   - enabled: 0
