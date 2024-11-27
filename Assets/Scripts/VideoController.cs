@@ -11,7 +11,6 @@ public class VideoController : MonoBehaviour {
 
     private void Awake() {
         _videoPlayer = GetComponent<VideoPlayer>();
-        PauseVideoAfterDelay();
         
         if(_onVideoPausedEvent is null)
             Debug.LogWarning("O evento está nulo!", this);
