@@ -225,11 +225,39 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
       propertyPath: m_Url
-      value: file:///home/lucassantos/Videos/Screencasts/Prova de conceito do simulador.webm
+      value: ./Assets/Artes/Videos/Prova de conceito do simulador.webm
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 56dc86dd8892b90ca8c51a7877a3b415, type: 3}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_DataSource
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
       propertyPath: m_PlaybackSpeed
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_ControlledAudioTrackCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567334618029194404, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1992201684589231802, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
       propertyPath: m_IsActive
