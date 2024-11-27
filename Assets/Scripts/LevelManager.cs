@@ -11,6 +11,7 @@ namespace DefaultNamespace {
         public Animator transition;
         public float transitionTime;
 
+    public class LevelMenager : MonoBehaviour {
         private void Awake() {
             int nextLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
             int lastLevelIndex = SceneManager.sceneCountInBuildSettings - 1;
