@@ -40,7 +40,7 @@ namespace DefaultNamespace {
         private IEnumerator PlaySFX() {
             _audioSource.clip = _sfx;
             _audioSource.Play();
-            yield return new WaitUntil(()=> !_audioSource.isPlaying);
+            yield return new WaitForSeconds(0.19f);
             _onSFXEnded.Invoke();
         }
         

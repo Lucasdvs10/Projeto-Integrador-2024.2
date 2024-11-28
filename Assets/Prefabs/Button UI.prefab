@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05aaba4ddf45437bb3997a57d6b7853f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sfx: {fileID: 8300000, guid: a0f87ea2ce5307a0d8dfe973e815d8cc, type: 3}
+  _sfx: {fileID: 8300000, guid: 6355466ce2ce9e84b9d409d61ca357a4, type: 3}
   _onSFXEnded:
     m_PersistentCalls:
       m_Calls:
