@@ -26,6 +26,11 @@ namespace DefaultNamespace {
             StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + index));
             //os index das scenes precisam ser configuradas no build configs
         }
+        
+        public void LoadLevelByIndex(int index)
+        {
+            StartCoroutine(LoadLevel(index));
+        }
 
         IEnumerator LoadLevel(int index)
         {
