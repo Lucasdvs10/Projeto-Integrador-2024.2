@@ -305,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4902124763057652792, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
       propertyPath: m_Name
-      value: WholeLevel
+      value: WholeLevel Test
       objectReference: {fileID: 0}
     - target: {fileID: 7004350151357330591, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
       propertyPath: m_text
@@ -323,6 +323,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "A - Beber o \xE1cido"
       objectReference: {fileID: 0}
+    - target: {fileID: 8674417057412583702, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+      propertyPath: _sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 6355466ce2ce9e84b9d409d61ca357a4, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
