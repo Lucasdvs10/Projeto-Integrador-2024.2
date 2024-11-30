@@ -355,6 +355,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "D - Diluir com \xE1gua"
       objectReference: {fileID: 0}
+    - target: {fileID: 4295913008241893897, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 7609c85fc7ce20848810c62266c4dd30, type: 3}
     - target: {fileID: 6109541134242348003, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: m_text
       value: B - Separar para o descarte
