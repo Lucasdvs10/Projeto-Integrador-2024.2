@@ -556,6 +556,8 @@ GameObject:
   - component: {fileID: 9010408265203979751}
   - component: {fileID: 2666746332092938161}
   - component: {fileID: 5827772350658861765}
+  - component: {fileID: 26782183462313654}
+  - component: {fileID: 4027032338841104420}
   m_Layer: 5
   m_Name: Alternativa D
   m_TagString: Untagged
@@ -807,6 +809,67 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &26782183462313654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2989492700027543793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78d4e61fe6a4431ab47e96d7fc10221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectedSprite: {fileID: 21300000, guid: f36dd2f1041a5df40b0fb1e12ee078be, type: 3}
+  _rotateDirection: 180
+--- !u!114 &4027032338841104420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2989492700027543793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 26782183462313654}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: RotateIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 26782183462313654}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: ResetIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &3307806882294419120
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +885,8 @@ GameObject:
   - component: {fileID: 6362299625911410276}
   - component: {fileID: 8936976153400133415}
   - component: {fileID: 2209970399145846289}
+  - component: {fileID: 5804575429434498208}
+  - component: {fileID: 5221403771246441006}
   m_Layer: 5
   m_Name: Alternativa A
   m_TagString: Untagged
@@ -1072,6 +1137,67 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5804575429434498208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3307806882294419120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78d4e61fe6a4431ab47e96d7fc10221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectedSprite: {fileID: 21300000, guid: f36dd2f1041a5df40b0fb1e12ee078be, type: 3}
+  _rotateDirection: 90
+--- !u!114 &5221403771246441006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3307806882294419120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5804575429434498208}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: RotateIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5804575429434498208}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: ResetIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &3763997387570276478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +1594,8 @@ GameObject:
   - component: {fileID: 6363221478910418378}
   - component: {fileID: 686310043787697068}
   - component: {fileID: 1224142746367517071}
+  - component: {fileID: 7620415204817826949}
+  - component: {fileID: 8435555147608393272}
   m_Layer: 5
   m_Name: Alternativa B
   m_TagString: Untagged
@@ -1718,6 +1846,67 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7620415204817826949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4197779415047209788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78d4e61fe6a4431ab47e96d7fc10221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectedSprite: {fileID: 21300000, guid: f36dd2f1041a5df40b0fb1e12ee078be, type: 3}
+  _rotateDirection: 0
+--- !u!114 &8435555147608393272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4197779415047209788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7620415204817826949}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: RotateIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7620415204817826949}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: ResetIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &4211865058229749684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,6 +2474,8 @@ GameObject:
   - component: {fileID: 3312359099967311970}
   - component: {fileID: 3745454623206744399}
   - component: {fileID: 2385110813143830372}
+  - component: {fileID: 8714818616312725532}
+  - component: {fileID: 4485937553397406425}
   m_Layer: 5
   m_Name: Alternativa C
   m_TagString: Untagged
@@ -2535,6 +2726,67 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8714818616312725532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666878882113799951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78d4e61fe6a4431ab47e96d7fc10221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _selectedSprite: {fileID: 21300000, guid: f36dd2f1041a5df40b0fb1e12ee078be, type: 3}
+  _rotateDirection: 270
+--- !u!114 &4485937553397406425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7666878882113799951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8714818616312725532}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: RotateIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8714818616312725532}
+          m_TargetAssemblyTypeName: Scripts.EventSystem.RotateSelectorIndicator,
+            Assembly-CSharp
+          m_MethodName: ResetIndicator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &8125933907890159044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,8 +3100,8 @@ GameObject:
   - component: {fileID: 4516040252525094054}
   - component: {fileID: 1478452231705793770}
   m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
+  m_Name: Indicator
+  m_TagString: Indicator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2863,7 +3115,7 @@ RectTransform:
   m_GameObject: {fileID: 9087245446261690114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.47351676, y: 0.47351676, z: 0.47351676}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1202955779625465868}
@@ -2871,7 +3123,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 150, y: 150}
+  m_SizeDelta: {x: 385, y: 385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4516040252525094054
 CanvasRenderer:
@@ -2901,7 +3153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c2fbfc5721084914db52ae941e3f90b4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d69b0ba51228bb499a955976f563240, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
