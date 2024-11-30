@@ -200,7 +200,7 @@ PrefabInstance:
       objectReference: {fileID: 32900000, guid: 10cf3829ec4065b4296ac67ed50df394, type: 3}
     - target: {fileID: 5384404878183465909, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: _delayToPauseInSeconds
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6109541134242348003, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: m_text

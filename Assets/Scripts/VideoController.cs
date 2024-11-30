@@ -14,6 +14,7 @@ public class VideoController : MonoBehaviour {
         
         if(_onVideoPausedEvent is null)
             Debug.LogWarning("O evento está nulo!", this);
+        PauseVideoAfterDelay();
     }
     
     [ContextMenu("Pause Video After Delay")]
