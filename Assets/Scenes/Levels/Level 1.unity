@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &637071022
+--- !u!1001 &252701298
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -134,10 +134,6 @@ PrefabInstance:
     - target: {fileID: 1079765378607387091, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
       propertyPath: m_Name
       value: Screen transition
-      objectReference: {fileID: 0}
-    - target: {fileID: 1079765378607387091, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6258850489281274335, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
       propertyPath: m_LocalPosition.x
@@ -157,15 +153,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6258850489281274335, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6258850489281274335, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6258850489281274335, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6258850489281274335, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -184,7 +180,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
---- !u!1 &1032423131
+--- !u!1 &1980747780
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,31 +188,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1032423134}
-  - component: {fileID: 1032423133}
-  - component: {fileID: 1032423132}
+  - component: {fileID: 1980747783}
+  - component: {fileID: 1980747782}
+  - component: {fileID: 1980747781}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1032423132
+--- !u!81 &1980747781
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032423131}
+  m_GameObject: {fileID: 1980747780}
   m_Enabled: 1
---- !u!20 &1032423133
+--- !u!20 &1980747782
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032423131}
+  m_GameObject: {fileID: 1980747780}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -244,9 +240,9 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -261,26 +257,22 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1032423134
+--- !u!4 &1980747783
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1032423131}
+  m_GameObject: {fileID: 1980747780}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 311.5727, y: 201.96889, z: 1.4946958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream
---- !u!1001 &4590325310164140608
-=======
---- !u!1001 &4572094855227426120
->>>>>>> Stashed changes
+--- !u!1001 &6938625721659552785
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -288,122 +280,104 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< Updated upstream
-=======
-    - target: {fileID: 1992201684589231802, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 685662778789665503, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_Name
+      value: WholeLevel
       objectReference: {fileID: 0}
-    - target: {fileID: 2188881838147626942, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_text
-      value: "A - Despejar na pia\t"
+    - target: {fileID: 1039875825071066916, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: _justifyingText
+      value: "Por ser um \xE1cido de PH baixo, descartar na pia pode prejudicar o
+        meio ambiente ou at\xE9 mesmo prejudicar a tubula\xE7\xE3o"
       objectReference: {fileID: 0}
->>>>>>> Stashed changes
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 239.61377
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 127.880035
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.68028677
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalRotation.x
+    - target: {fileID: 1039875825071066916, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: _isCorrectAnswer
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3015659238032767525, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-<<<<<<< Updated upstream
-=======
-    - target: {fileID: 4006711709316728905, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+    - target: {fileID: 1458744821453016523, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: _justifyingText
       value: "A ingest\xE3o da maioria dos \xE1cidos pode causar queimaduras, dor
         abdominal, danos aos \xF3rg\xE3os internos e poss\xEDvel morte "
       objectReference: {fileID: 0}
-    - target: {fileID: 4410979558994535863, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+    - target: {fileID: 1704409982209177884, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: _justifyingText
+      value: "Deve-se separar o \xE1cido para o descarte adequado, e envi\xE1-lo
+        para uma empresa terceira especializada em descarte qu\xEDmico."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1704409982209177884, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: _isCorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546426469478635661, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_text
+      value: "C - Beber o \xE1cido"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 239.61377
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 127.880035
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.68028677
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3953056185807466759, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_text
+      value: "D - Diluir com \xE1gua"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6109541134242348003, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
+      propertyPath: m_text
+      value: B - Separar para o descarte
+      objectReference: {fileID: 0}
+    - target: {fileID: 8820309067085563164, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: _justifyingText
       value: "Se misturado muito r\xE1pido, o resultado ser\xE1 uma rea\xE7\xE3o
         exot\xE9rmica que pode provocar fervura, o que resulta em borbulha e que
         pode levar a respingos de \xE1cido."
       objectReference: {fileID: 0}
-    - target: {fileID: 4745338386024768227, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: _delayToPauseInSeconds
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797293902455418045, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+    - target: {fileID: 8833149901024133577, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: m_text
-      value: "D - Diluir com \xE1gua"
-      objectReference: {fileID: 0}
->>>>>>> Stashed changes
-    - target: {fileID: 4902124763057652792, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_Name
-      value: WholeLevel
-      objectReference: {fileID: 0}
-    - target: {fileID: 5839922842419512392, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_text
-      value: "C - Beber o \xE1cido"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6256464958110731712, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: _justifyingText
-      value: "Deve-se separar o \xE1cido para o descarte adequado, e envi\xE1-lo
-        para uma empresa terceira especializada em descarte qu\xEDmico."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6256464958110731712, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: _isCorrectAnswer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6782295492632303794, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: m_text
-      value: B - Separar para o descarte
-      objectReference: {fileID: 0}
-    - target: {fileID: 8282918877562710831, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: _justifyingText
-      value: "Por ser um \xE1cido de PH baixo, descartar na pia pode prejudicar o
-        meio ambiente ou at\xE9 mesmo prejudicar a tubula\xE7\xE3o"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8282918877562710831, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
-      propertyPath: _isCorrectAnswer
-      value: 0
+      value: A - Despejar na pia
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 55544a874d058eabe96b19e603e54b6e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1032423134}
-  - {fileID: 637071022}
-<<<<<<< Updated upstream
-  - {fileID: 4590325310164140608}
-=======
-  - {fileID: 4572094855227426120}
->>>>>>> Stashed changes
+  - {fileID: 6938625721659552785}
+  - {fileID: 252701298}
+  - {fileID: 1980747783}
