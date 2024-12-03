@@ -286,8 +286,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 684483055507845849, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _justifyingText
-      value: "O vidro protetor evita o contato de gases nocivos com o rosto da pessoa
-        e sua dispers\xE3o no laborat\xF3rio"
+      value: O vidro protetor evita o contato de gases nocivos com o rosto da pessoa
+        e sua dispersao no laboratorio
       objectReference: {fileID: 0}
     - target: {fileID: 922309617512726135, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _delayToPauseInSeconds
@@ -295,8 +295,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1889460273076467121, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _justifyingText
-      value: "Ao se aproximar do b\xE9quer, corre-se o risco de alguma subst\xE2ncia
-        nociva entrar em contato com os olhos e rosto da pessoa"
+      value: Ao se aproximar do bequer, corre-se o risco de alguma substancia nociva
+        entrar em contato com os olhos e rosto da pessoa
       objectReference: {fileID: 0}
     - target: {fileID: 1889460273076467121, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _isCorrectAnswer
@@ -308,7 +308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4578847099925824508, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _justifyingText
-      value: "O vidro protetor evita a dispers\xE3o de gases nocivos no laborat\xF3rio"
+      value: O vidro protetor evita a dispersao de gases nocivos no laboratorio
       objectReference: {fileID: 0}
     - target: {fileID: 4578847099925824508, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _isCorrectAnswer
@@ -316,7 +316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4723976566123075028, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_text
-      value: "C - Cherar a subst\xE2ncia"
+      value: C - Cherar a substancia
       objectReference: {fileID: 0}
     - target: {fileID: 4723976566123075028, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
@@ -432,12 +432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8150702746000474996, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _justifyingText
-      value: "Cheirar a subst\xE2ncia pode ser nocivo \xE0 sa\xFAde trazer s\xE9rias
-        complica\xE7\xF5es"
+      value: Cheirar a substancia pode ser nocivo a saude trazer serias complicacoes
       objectReference: {fileID: 0}
     - target: {fileID: 8686820071614354667, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_text
-      value: "B - Se aproximar do b\xE9quer"
+      value: B - Se aproximar do bequer
       objectReference: {fileID: 0}
     - target: {fileID: 8686820071614354667, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
