@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2141176298503716883}
   m_Layer: 6
   m_Name: Screen transition
-  m_TagString: Untagged
+  m_TagString: ScreenTransition
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

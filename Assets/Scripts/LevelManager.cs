@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace {
     public class LevelManager : MonoBehaviour {
-        // [SerializeField] private GameObject _nextLevelBtn;
+        [SerializeField] private GameObject _nextLevelBtn;
         //reutilizei o seu codigo para o level selector qqr coisa me avisa q eu crio outro script
 
         public Animator transition;
@@ -16,8 +16,13 @@ namespace DefaultNamespace {
             int lastLevelIndex = SceneManager.sceneCountInBuildSettings - 1;
 
             if (nextLevelIndex > lastLevelIndex) {
-                // _nextLevelBtn.SetActive(false);
+                if(_nextLevelBtn != null)
+                    _nextLevelBtn.SetActive(false);
                 Debug.Log("Não há mais níveis disponíveis!", this);
+            }
+
+            if (transition == null) {
+                transition = GetComponentInParent<Animator>(true);
             }
         }
 
