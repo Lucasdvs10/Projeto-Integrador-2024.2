@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Screen transition
       objectReference: {fileID: 0}
+    - target: {fileID: 1079765378607387091, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6258850489281274335, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
       propertyPath: m_LocalPosition.x
       value: 620.7897
@@ -231,6 +235,10 @@ PrefabInstance:
     - target: {fileID: 4321020446478941056, guid: cfefc33688757974897dc6b9eef814c0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125933907890159044, guid: cfefc33688757974897dc6b9eef814c0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
