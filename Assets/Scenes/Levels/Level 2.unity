@@ -210,10 +210,10 @@ PrefabInstance:
     - target: {fileID: 4295913008241893897, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 0991df82f2cd4654a8d01fb639ee5a9f, type: 3}
+      objectReference: {fileID: 32900000, guid: ba95cdb83ea2e4a46af8d21f3763bf8b, type: 3}
     - target: {fileID: 5384404878183465909, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: _delayToPauseInSeconds
-      value: 5
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6109541134242348003, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
       propertyPath: m_text
