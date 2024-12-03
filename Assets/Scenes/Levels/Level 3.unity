@@ -123,103 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &582669262
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 685662778789665503, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_Name
-      value: WholeLevel 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1039875825071066916, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: _justifyingText
-      value: "Porque gases nocivos em ambientes fechados podem causar danos \xE0
-        sa\xFAde de todos os presentes no ambiente."
-      objectReference: {fileID: 0}
-    - target: {fileID: 1704409982209177884, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: _justifyingText
-      value: "Fazer os experimentos dentro da capela do laborat\xF3rio pois, a capela
-        oferece uma tela de prote\xE7\xE3o ao usu\xE1rio e um exaustor motorizado
-        para remo\xE7\xE3o do g\xE1s."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2546426469478635661, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_text
-      value: "C - Utilizar uma m\xE1scara de g\xE1s"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 239.61377
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 127.880035
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.68028677
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3031092382120588377, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3953056185807466759, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_text
-      value: "C - Utilizar uma m\xE1scara de g\xE1s"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4295913008241893897, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_VideoClip
-      value: 
-      objectReference: {fileID: 32900000, guid: affd0cfd07073aa4d82cfbe0e2fb934c, type: 3}
-    - target: {fileID: 5384404878183465909, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: _delayToPauseInSeconds
-      value: 6.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6109541134242348003, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_text
-      value: B - Fazer o experimento dentro da capela
-      objectReference: {fileID: 0}
-    - target: {fileID: 8820309067085563164, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: _justifyingText
-      value: "Por mais que voc\xEA fique protegido, todos os outros presentes no
-        laborat\xF3rio s\xE3o colocados em risco de sa\xFAde."
-      objectReference: {fileID: 0}
-    - target: {fileID: 8833149901024133577, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
-      propertyPath: m_text
-      value: A - Realizar o experimento normalmente
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 22378c628bd1fdc4d933fe055a2f9a8d, type: 3}
 --- !u!1 &1032423131
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,10 +272,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2fdf6443d412894f92bf537842e9617, type: 3}
+--- !u!1001 &1864348786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 445693838627411650, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_Name
+      value: WholeCloneLevel1
+      objectReference: {fileID: 0}
+    - target: {fileID: 922309617512726135, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _delayToPauseInSeconds
+      value: 6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 239.61377
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 127.880035
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.68028677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828868886071333916, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280829446821066713, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: affd0cfd07073aa4d82cfbe0e2fb934c, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1032423134}
   - {fileID: 1854203863}
-  - {fileID: 582669262}
+  - {fileID: 1864348786}
