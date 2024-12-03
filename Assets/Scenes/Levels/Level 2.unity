@@ -227,13 +227,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: WholeCloneLevel1
       objectReference: {fileID: 0}
+    - target: {fileID: 684483055507845849, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _justifyingText
+      value: "Por estar em altas temperaturas, manipular o b\xE9quer sem luvas de
+        prote\xE7\xE3o pode causar queimaduras."
+      objectReference: {fileID: 0}
     - target: {fileID: 922309617512726135, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _delayToPauseInSeconds
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 1889460273076467121, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _justifyingText
+      value: "Nunca deve-se assoprar a chama do bico de bunsen. Podendo at\xE9 mesmo
+        causar uma explos\xE3o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889460273076467121, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _isCorrectAnswer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3905407841084404467, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_SizeDelta.y
       value: 122.4646
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578847099925824508, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _justifyingText
+      value: "Isso pode dispersar o g\xE1s de maneira indevida e com isso causar
+        uma nova ingni\xE7\xE3o de maneira indesejada e perigosa"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723976566123075028, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: C - Manipular com luvas protetoras
       objectReference: {fileID: 0}
     - target: {fileID: 4723976566123075028, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
@@ -292,6 +315,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6397471680972481979, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: "D - Apagar jogando \xE1gua"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397471680972481979, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
       value: 50
       objectReference: {fileID: 0}
@@ -324,6 +351,10 @@ PrefabInstance:
       value: 122.4646
       objectReference: {fileID: 0}
     - target: {fileID: 7969740056922141105, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: "A - Usar as pr\xF3prias m\xE3os"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969740056922141105, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
       value: 50
       objectReference: {fileID: 0}
@@ -338,6 +369,14 @@ PrefabInstance:
     - target: {fileID: 7969740056922141105, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150702746000474996, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _isCorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686820071614354667, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: B - Apagar o fogo assoprando
       objectReference: {fileID: 0}
     - target: {fileID: 8686820071614354667, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
