@@ -284,13 +284,39 @@ PrefabInstance:
       propertyPath: m_Name
       value: WholeCloneLevel1
       objectReference: {fileID: 0}
+    - target: {fileID: 684483055507845849, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _justifyingText
+      value: "O vidro protetor evita o contato de gases nocivos com o rosto da pessoa
+        e sua dispers\xE3o no laborat\xF3rio"
+      objectReference: {fileID: 0}
     - target: {fileID: 922309617512726135, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _delayToPauseInSeconds
       value: 6.7
       objectReference: {fileID: 0}
+    - target: {fileID: 1889460273076467121, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _justifyingText
+      value: "Ao se aproximar do b\xE9quer, corre-se o risco de alguma subst\xE2ncia
+        nociva entrar em contato com os olhos e rosto da pessoa"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1889460273076467121, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _isCorrectAnswer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3905407841084404467, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_SizeDelta.y
       value: 122.4646
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578847099925824508, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _justifyingText
+      value: "O vidro protetor evita a dispers\xE3o de gases nocivos no laborat\xF3rio"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578847099925824508, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _isCorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723976566123075028, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: "C - Cherar a subst\xE2ncia"
       objectReference: {fileID: 0}
     - target: {fileID: 4723976566123075028, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
@@ -349,6 +375,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6397471680972481979, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: D - Fechar o vidro protetor
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397471680972481979, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
       value: 50
       objectReference: {fileID: 0}
@@ -381,6 +411,10 @@ PrefabInstance:
       value: 122.4646
       objectReference: {fileID: 0}
     - target: {fileID: 7969740056922141105, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: A - Manipular com a cabine aberta
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969740056922141105, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
       value: 50
       objectReference: {fileID: 0}
@@ -395,6 +429,15 @@ PrefabInstance:
     - target: {fileID: 7969740056922141105, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8150702746000474996, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: _justifyingText
+      value: "Cheirar a subst\xE2ncia pode ser nocivo \xE0 sa\xFAde trazer s\xE9rias
+        complica\xE7\xF5es"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686820071614354667, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
+      propertyPath: m_text
+      value: "B - Se aproximar do b\xE9quer"
       objectReference: {fileID: 0}
     - target: {fileID: 8686820071614354667, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_fontSize
