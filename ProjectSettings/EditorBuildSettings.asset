@@ -9,17 +9,32 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 6d3d6463eecf3c1ee821e100563e56fe
   - enabled: 1
+    path: Assets/Scenes/MainMenu ENG.unity
+    guid: 6d3f64cd6e4df8146ae1794e412c63f9
+  - enabled: 1
     path: Assets/Scenes/LevelSelector.unity
     guid: 32b3d493eeb10924f9e4c7664af0c143
+  - enabled: 1
+    path: Assets/Scenes/LVLSelector ENG.unity
+    guid: e23ef29c2e1f8d9468df139a0ce519ba
   - enabled: 1
     path: Assets/Scenes/Levels/Level 1.unity
     guid: f7b8db4847eb0ed44a6cfee518e3b4dc
   - enabled: 1
+    path: Assets/Scenes/Levels/ENG lvl/Level 1 ENG.unity
+    guid: ebb9ee84290b9bb45baf0e7d517b2032
+  - enabled: 1
     path: Assets/Scenes/Levels/Level 2.unity
     guid: fffa925362d53914dacb8efc89723ea4
   - enabled: 1
+    path: Assets/Scenes/Levels/ENG lvl/Level 2 ENG.unity
+    guid: 2341a7cb1d18faa40a405b01cf8bd91b
+  - enabled: 1
     path: Assets/Scenes/Levels/Level 3.unity
     guid: b51175e334b34584c9b763b782276591
+  - enabled: 1
+    path: Assets/Scenes/Levels/ENG lvl/Level 3 ENG.unity
+    guid: 1b2fce00ae38b25408d619b4bd16be70
   - enabled: 0
     path: Assets/Scenes/Levels/Level 4.unity
     guid: 519dd8ae4fb0ef147821bfb681aa7afc

@@ -332,7 +332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 123.36315, y: -183.53682}
+  m_AnchoredPosition: {x: 95, y: -183.53682}
   m_SizeDelta: {x: 359.7262, y: 99.2737}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &555614880
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fase 2
+  m_text: Scene 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da84dd519150d9441b3681127c0e360e, type: 2}
   m_sharedMaterial: {fileID: 6377253606790099956, guid: da84dd519150d9441b3681127c0e360e, type: 2}
@@ -583,7 +583,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1025,7 +1025,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1376,7 +1376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103.72472, y: -187.64299}
+  m_AnchoredPosition: {x: 80, y: -182}
   m_SizeDelta: {x: 320.4493, y: 107.486}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1300521363
@@ -1399,7 +1399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fase 3
+  m_text: Scene 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da84dd519150d9441b3681127c0e360e, type: 2}
   m_sharedMaterial: {fileID: 6377253606790099956, guid: da84dd519150d9441b3681127c0e360e, type: 2}
@@ -1582,8 +1582,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.5, y: -158.9}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 59.414, y: -182.16814}
+  m_SizeDelta: {x: 281.1724, y: 96.5363}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1904973081
 MonoBehaviour:
@@ -1605,7 +1605,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Fase 1
+  m_text: Scene 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: da84dd519150d9441b3681127c0e360e, type: 2}
   m_sharedMaterial: {fileID: 6377253606790099956, guid: da84dd519150d9441b3681127c0e360e, type: 2}
@@ -1746,7 +1746,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
