@@ -28,3 +28,16 @@ Assim que todos os passos do método de baixar foram cumpridos, deve-se:
   <li>Execute o arquivo</li>
 </ol>
 Seguindo da maneira correta todas as etapas💯 fornecidas, você estará apto a jogar o QuiMancada🧪
+
+
+
+
+### Como jogar❓
+Para jogar o QuiMancada🧪 é muito simples, basta:
+<ol>
+  <li>Abrir📭 o jogo</li>
+  <li>Clicar no botão <strong>INICIAR</strong> na parte inferior da tela</li>
+  <li>Selecionar a fase desejada</li>
+  <li>Após a apresentação do cenário, selecione uma das opções em sua tela</li>
+</ol>
+E assim, você conseguirá jogar o QuiMancada🧪
