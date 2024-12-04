@@ -225,8 +225,7 @@ PrefabInstance:
     - target: {fileID: 4578847099925824508, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _justifyingText
       value: Se misturado muito rapido, o resultado sera uma reacao exotermica que
-        pode provocar fervura resultar em borbulha e que pode levar a respingos de
-        acido.
+        pode provocar fervura, resultar em borbulha e pode levar a respingos de acido.
       objectReference: {fileID: 0}
     - target: {fileID: 4723976566123075028, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: m_text
@@ -402,7 +401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8150702746000474996, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
       propertyPath: _justifyingText
-      value: 'A ingestao da maioria dos acido pode causar queimaduras, dor abdominal,
+      value: 'A ingestao da maioria dos acidos pode causar queimaduras, dor abdominal,
         danos aos orgaos internos e possivel morte '
       objectReference: {fileID: 0}
     - target: {fileID: 8686820071614354667, guid: 2d16094f995eb2d42834ddc15604ca20, type: 3}
